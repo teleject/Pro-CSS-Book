@@ -1,0 +1,16 @@
+/*
+	Title:      CSS rules for aural presentation
+	Author:     Christopher Schmitt, http://christopherschmitt.com/
+	Updated:    Sunday; March 5, 2006
+*/
+acronym {
+	speak: normal;
+	}
+	
+abbr.initialism {
+	speak: spell-out;
+}
+
+abbr.truncation {
+	speak: normal;
+}

@@ -1,0 +1,126 @@
+/*
+	Site:		ProCSSbook.com
+	Title:      CSS rules for color
+	Author:     Christopher Schmitt, http://christopherschmitt.com/
+	Updated:    Monday; March 13, 2006
+*/
+
+body {
+	background-color: #2c0009;
+	color: white;
+}
+
+#frame {
+	background-color: #700014;
+	border-top: 1px solid #38000c;
+	border-left: 1px solid #7d4b55;
+	border-right: 1px solid #7d4b55;
+}
+	
+#downloads h2 {
+	background-color: #c11339;
+	color: white;
+	border-bottom: 1px solid #46000f;
+
+}
+
+#downloads ul li a {
+	font-size: 1.4em;
+}
+
+#abovefold ul li {
+	border-bottom: 1px solid #46000f;
+}
+
+#abovefold a:link, #abovefold a:visited {
+	color: #bfbfbf;
+}
+
+#abovefold a:hover, #abovefold a:active {
+	color: white;
+}
+
+
+#downloads a:hover .info {
+	color: #e6e7e8;
+}
+
+#downloads span.info:hover {
+	color: white;
+}
+
+#buybook h3 {
+	background-color: #c11339;
+	color: white;
+	border-bottom: 1px solid #46000f;
+
+}
+
+#buybook ul li a {
+}
+
+#buybook a:hover .info {
+	color: #e6e7e8;
+}
+
+#buybook span.info:hover {
+	color: white;
+}
+
+#bookreview {
+}
+
+#enews h4 {
+	border-bottom: 1px solid #b07e88; 
+}
+
+#enews p {
+}
+
+#enews form {
+	color: #f8e806;
+	background-color: #781a2b;
+}
+
+#otherbooks h5 {
+	border-bottom: 1px solid #b07e88; 
+}
+
+#otherbooks dd {
+}
+
+#bookreview a {
+	color: white;
+}
+
+#otherbooks dl a img {
+	background-color: #bfbfbf;
+	border: 1px solid black;
+}
+
+#otherbooks dl a:hover img {
+	background-color: white;
+	border: 1px solid #640012;
+}
+
+#otherbooks dl a:link, #otherbooks dl a:visited {
+	color: #739aac;
+}
+
+#otherbooks dl:hover, #otherbooks dl:hover dd a {
+	color: white;
+}
+#otherbooks dl:hover dt a img {
+	background-color: white;
+}
+
+#footer {
+}
+
+#footer p {
+}
+
+#footer a:link, #footer a:visited {
+	color: #ccc;
+}
+

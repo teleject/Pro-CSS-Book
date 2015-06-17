@@ -1,0 +1,316 @@
+/*
+Site:	    ProCSSCook.com
+Title:      Master list of CSS rules
+Author:     Christopher Schmitt, http://christopherschmitt.com/
+Updated:    Friday; March 5, 2006
+*/
+
+/* main settings
+------------------------------------ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	background-position: 50% 0;
+}
+
+#frame {
+	position: relative;	
+	text-align: left;
+	margin: 0 auto;
+	width: 988px;
+}
+
+
+/* main
+------------------------------------ */
+
+#main {
+	position: relative;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding-top: 46px;
+}
+
+
+#abovefold {
+}
+
+/* header
+------------------------------------ */
+
+#header h1 {
+	position: absolute;
+	top: 54px;
+	left: -15px;
+	width: 374px;
+	height: 495px;
+	
+}
+
+#header h1 img {
+	display: none;
+}
+
+
+/* quotation
+------------------------------------ */
+
+blockquote {
+	height: 193px;
+	margin-left: 366px;
+}
+
+
+/* downloads
+------------------------------------ */
+
+#downloads {
+
+}
+
+#downloads h2 {
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-left: 354px;
+	margin-left: 26px;
+}
+
+#downloads ul {
+}
+
+#downloads ul li {
+}
+
+
+#downloads ul li a:link, #downloads ul li a:visited {
+	display: block;
+	margin-left: 368px;
+	padding-left: 26px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#downloads .info {
+ }
+ 
+#downloads a:hover .info {
+	display: inline;
+}
+
+
+#downloads span.info:hover {
+}
+
+/* buybook 
+------------------------------------ */
+	
+#buybook {
+	padding-bottom: 41px;
+}
+		
+#buybook .info {
+ 	display: none;
+ }
+
+#buybook a:hover .info {
+	display: inline;
+}
+
+
+#buybook h3 {
+	padding-left: 354px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	margin-left: 26px;
+}
+
+#buybook ul {
+}
+
+#buybook ul li {
+
+}
+
+#buybook ul li a {
+	display: block;
+	padding-left: 26px;
+	margin-left: 368px;
+	padding-top: .4em;
+	padding-bottom: .4em;
+
+}
+
+
+/* bookreview
+------------------------------------ */
+
+#bookreview {
+	position: relative;
+	margin-top: 32px;
+	margin-bottom: 28px;	
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#bookreview a {
+
+}
+
+
+/* belowfold
+------------------------------------ */
+
+#belowfold {
+	padding-top: 64px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+/* enews
+------------------------------------ */
+
+#enews {
+	position: relative;
+	float: right;
+	width: 507px;
+	margin-right: 10px;
+}
+
+#enews h4 {
+	padding-bottom: 9px;
+	margin-bottom: 11px;
+}
+
+#enews p {
+}
+
+#enews form {
+	padding: 14px;
+	margin-bottom: 1em;
+}
+
+
+
+#enews input {
+	width: 140px;
+	margin-right: 1em;
+}
+
+
+#enews #enews-submit {
+	margin: 0 0 0 0;
+	padding: 0;
+	position: relative;
+	top: .4em;
+	width: 71px;
+}
+
+
+
+/* otherbooks
+------------------------------------ */
+
+#otherbooks {
+	position: relative;
+	margin-left: 18px;
+	width: 327px;
+}
+
+#otherbooks h5 {
+	padding-bottom: 9px;
+	margin-bottom: 11px;
+}
+
+#otherbooks dl a img {
+	padding: 1px;
+}
+
+
+#otherbooks dl {
+	float: left; 
+	width: 125px;
+}
+
+#otherbooks dd {
+	margin-top: 7px;
+	width: 80%;
+	margin-bottom: 12px;
+	font-size: 1.1em;
+}
+
+/* footer
+------------------------------------ */
+
+#footer {
+	position: relative;
+	clear: both;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding-top: 60px;
+	padding-bottom: 1em;
+
+}
+
+#footer p {
+}
+
+
+/* links
+------------------------------------ */
+
+a {
+}
+
+#buybook a:link, #buybook a:visited,
+#downloads a:link, #downloads a:visited {
+	position: relative;
+	z-index: 1000;
+}
+
+
+#buybook a:hover, #buybook a:active,
+#downloads a:hover, #downloads a:active {
+}
+
+#otherbooks dl a:hover img {
+}
+
+#otherbooks dl a:link, #otherbooks dl a:visited {
+}
+
+#otherbooks dl:hover, #otherbooks dl:hover dd a {
+}
+
+#otherbooks dl:hover dt a img {
+}
+
+
+/* common elements
+------------------------------------ */
+
+
+p {
+	margin-bottom: 1em;
+}
+
+hr {
+	display: none;
+}
+
+img {
+	border: none;
+}
+
+abbr, acronym {
+	border: none;
+}        
+
+
+
+
+

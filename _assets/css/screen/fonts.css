@@ -1,0 +1,103 @@
+/*
+	Site:		ProCSSbook.com
+	Title:      CSS rules for fonts
+	Author:     Christopher Schmitt, http://christopherschmitt.com/
+	Updated:    Monday; March 13, 2006
+*/
+
+body {
+	font-size: 62.5%;
+}
+
+#frame {
+	font-family: "Myriad Pro",  "Myriad Web", Mryiad, Helvetica, Arial, sans-serif;
+}
+
+#downloads h2 {
+	font-family: "Myriad Pro", "Myriad Web", Myriad, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+#downloads ul li a {
+	font-size: 1.4em;
+}
+
+#downloads .info {
+ 	display: none;
+ }
+ 
+#downloads a:hover .info {
+	display: inline;
+}
+
+#downloads a:hover .info:before {
+	content: ": ";
+}
+
+#downloads a:hover .info:after {
+	content: " \00BB";
+}
+
+
+#buybook h3 {
+	font-family: "Myriad Pro", "Myriad Web", Mryiad, Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	text-transform: uppercase;	
+}
+
+#buybook ul li a {
+	font-size: 1.4em;
+}
+
+
+#buybook a:hover .info:after {
+	content: " \00BB";
+}
+
+
+#bookreview {
+	font-size: 1.4em;
+}
+
+#enews h4 {
+	font-size: 1.2em;
+}
+
+#enews p {
+	font-size: 1.2em;
+	line-height: 1.2;
+}
+
+#enews form {
+	font-size: 1.2em;	
+}
+
+#enews label:after {
+	content: ": ";
+}
+
+#otherbooks h5 {
+	font-size: 1.2em;
+}
+
+#otherbooks dd {
+	font-size: 1.1em;
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer p {
+	line-height: 1.5;
+	font-size: .9em;
+}
+
+a {
+	text-decoration: none;
+}	
+
+ul {
+	list-style-type: none;
+}
