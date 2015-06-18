@@ -6,21 +6,21 @@
 */
 
 body {
-	background-image: url(/_assets/img/procss_bkgd_body.jpg);
+	background-image: url(/assets/img/procss_bkgd_body.jpg);
 }
 
 #frame {
-	background-image: url(/_assets/img/procss_bkgd_frame.jpg);
+	background-image: url(/assets/img/procss_bkgd_frame.jpg);
 	background-repeat: no-repeat;
 }
 
 #header h1 {
-	background-image: url(/_assets/img/procss_cover.png);
+	background-image: url(/assets/img/procss_cover.png);
 }
 
 blockquote {
 	text-indent: -1000em;
-	background-image: url(/_assets/img/procss_quote.gif);
+	background-image: url(/assets/img/procss_quote.gif);
 	background-repeat: no-repeat;
 	background-position: 0 47px;
 	overflow: hidden;
@@ -28,17 +28,17 @@ blockquote {
 
 
 #belowfold {
-	background-image: url(/_assets/img/procss_bkgd_belowfold.jpg);
+	background-image: url(/assets/img/procss_bkgd_belowfold.jpg);
 	background-repeat: no-repeat;
 }
 
 #footer {
-	background-image: url(/_assets/img/procss_bkgd_footer.gif);
+	background-image: url(/assets/img/procss_bkgd_footer.gif);
 	background-repeat: no-repeat;
 }
 
 #downloads ul {
-	background-image: url(/_assets/img/procss_alpha_10_fade2.jpg);
+	background-image: url(/assets/img/procss_alpha_10_fade2.jpg);
 }
 
 
@@ -47,14 +47,14 @@ blockquote {
 }
 
 #buybook {
-	background-image: url(/_assets/img/procss_alpha_10_fade2.jpg);
+	background-image: url(/assets/img/procss_alpha_10_fade2.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
 
 }
 
 #buybook ul {
-	background-image: url(/_assets/img/procss_alpha_10_fade2.jpg);
+	background-image: url(/assets/img/procss_alpha_10_fade2.jpg);
 	
 }
 
@@ -64,7 +64,7 @@ blockquote {
 
 #buybook a:link, #buybook a:visited,
 #downloads a:link, #downloads a:visited {
-	background-image: url(/_assets/img/gold_bullet.gif);
+	background-image: url(/assets/img/gold_bullet.gif);
 	background-position: 13px .8em;
 	background-repeat: no-repeat;
 }
@@ -72,7 +72,7 @@ blockquote {
 
 #buybook a:hover, #buybook a:active,
 #downloads a:hover, #downloads a:active {
-	background-image: url(/_assets/img/white_bullet.gif);
+	background-image: url(/assets/img/white_bullet.gif);
 	background-position: 13px .8em;
 	background-repeat: no-repeat;	
 }
